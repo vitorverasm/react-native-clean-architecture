@@ -1,5 +1,5 @@
 import {Message, MessageOptions} from '@/domain/models';
-import {DisplayMessage} from '@/domain/usecases/display-message';
+import {DisplayMessage} from '@/domain/usecases';
 
 export class DisplaySpy implements DisplayMessage {
   message: Message;

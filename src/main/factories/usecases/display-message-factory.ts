@@ -1,5 +1,5 @@
 import {DisplayFeedbackMessage} from '@/data/usecases/display-message/display-feedback-message';
-import {DisplayMessage} from '@/domain/usecases/display-message';
+import {DisplayMessage} from '@/domain/usecases';
 import {MakeMessagePresenter} from '@/main/factories/protocols/message-presenter/message-presenter-factory';
 
 export const MakeDisplayMessage = (): DisplayMessage => {

@@ -1,6 +1,6 @@
 import {MessagePresenter} from '@/data/protocols/message-presenter/message-presenter';
 import {Message, MessageOptions} from '@/domain/models';
-import {DisplayMessage} from '@/domain/usecases/display-message';
+import {DisplayMessage} from '@/domain/usecases';
 
 export class DisplayFeedbackMessage implements DisplayMessage {
   constructor(private readonly messagePresenter: MessagePresenter) {}

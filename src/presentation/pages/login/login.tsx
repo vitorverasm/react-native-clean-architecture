@@ -1,5 +1,8 @@
-import {Authentication, HandleAccessToken} from '@/domain/usecases';
-import {DisplayMessage} from '@/domain/usecases/display-message';
+import {
+  Authentication,
+  DisplayMessage,
+  HandleAccessToken,
+} from '@/domain/usecases';
 import {DefaultI18n, LoginI18n, translate} from '@/locale';
 import {KeyboardDismiss} from '@/presentation/components';
 import {RootStackParamList} from '@/presentation/routes';
