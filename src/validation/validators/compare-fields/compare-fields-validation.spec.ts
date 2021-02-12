@@ -17,4 +17,11 @@ describe('CompareFieldsValidation', () => {
     const error = sut.validate(faker.internet.password());
     expect(error).toEqual(new PasswordMismatchError());
   });
+
+  test('Should return null if compare is valid', () => {
+    const password = faker.internet.password();
+    const sut = makeSut(password);
+    const error = sut.validate(password);
+    expect(error).toBeNull();
+  });
 });
