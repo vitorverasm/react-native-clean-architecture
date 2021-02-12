@@ -20,6 +20,7 @@ export default {
     invalidEmailFieldError: 'Invalid Email',
     invalidOtherFieldError: 'Invalid Field',
     minLengthError: '$ must be at least $ characters',
+    emailInUseError: 'Email address in use',
   },
   tests: {
     helloWorld: 'Hello World $ $',

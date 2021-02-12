@@ -21,6 +21,7 @@ export default {
     invalidEmailFieldError: 'E-mail inválido',
     invalidOtherFieldError: 'Campo inválido',
     minLengthError: '$ deve ter pelo menos $ caracteres',
+    emailInUseError: 'Endereço de Email já está em uso',
   },
   tests: {
     helloWorld: 'Olá Mundo $ $',

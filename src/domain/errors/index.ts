@@ -1,3 +1,4 @@
+export * from './email-in-use-error';
 export * from './invalid-credentials-error';
 export * from './storage-clear-error';
 export * from './storage-get-error';
