@@ -259,7 +259,7 @@ const styles = StyleSheet.create({
   emailInput: {marginTop: 45},
   passwordInput: {marginTop: 20},
   buttonsContainer: {marginTop: 60},
-  forgotPassword: {marginTop: 12, alignSelf: 'center'},
+  forgotPassword: {marginTop: 15, alignSelf: 'center'},
   signupButton: {marginTop: 45},
 });
 

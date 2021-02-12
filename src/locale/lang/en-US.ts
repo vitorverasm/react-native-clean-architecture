@@ -5,9 +5,19 @@ export default {
     subtitle: 'Enter your details to continue',
     forgotPassword: 'Forgot your password?',
   },
+  signUp: {
+    title: 'Sign Up',
+    signUp: 'Sign Up',
+    subtitle: 'Enter your details to continue',
+    passwordConfirmation: 'Password confirmation',
+    alreadyHaveAccount: 'Already have an account?',
+    signIn: 'Sign In',
+  },
   default: {
     email: 'E-mail',
     password: 'Password',
+    name: 'Name',
+    back: 'Back',
   },
   errors: {
     invalidCredentialsError: 'Invalid credentials',

@@ -1,3 +1,4 @@
+import {DefaultI18n, translate} from '@/locale';
 import {Icon, TopNavigation, TopNavigationAction} from '@ui-kitten/components';
 import React from 'react';
 import {SignUpScreenNavigationProp} from './sign-up';
@@ -10,8 +11,7 @@ const SignUpHeader: React.FC<SignUpHeaderProps> = ({navigation}) => {
   return (
     <TopNavigation
       testID="signup_header"
-      alignment="center"
-      title="Sign Up"
+      title={translate(DefaultI18n.back)}
       accessoryLeft={() => (
         <TopNavigationAction
           testID="signup_header_back_button"

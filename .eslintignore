@@ -63,3 +63,5 @@ buck-out/
 /ios/Pods/
 .vscode
 coverage
+
+*.json

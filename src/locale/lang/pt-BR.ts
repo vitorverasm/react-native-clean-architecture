@@ -5,9 +5,19 @@ export default {
     subtitle: 'Preencha seus dados para continuar',
     forgotPassword: 'Esqueceu sua senha?',
   },
+  signUp: {
+    title: 'Cadastro',
+    signUp: 'Registrar-se',
+    subtitle: 'Preencha seus dados para continuar',
+    passwordConfirmation: 'Confirmação de senha',
+    alreadyHaveAccount: 'Já possui conta?',
+    signIn: 'Entrar',
+  },
   default: {
     email: 'E-mail',
     password: 'Senha',
+    name: 'Nome',
+    back: 'Voltar',
   },
   errors: {
     invalidCredentialsError: 'Credenciais inválidas',

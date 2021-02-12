@@ -7,9 +7,20 @@ export enum LoginI18n {
   forgotPassword = 'login.forgotPassword',
 }
 
+export enum SignUpI18n {
+  title = 'signUp.title',
+  signUp = 'signUp.signUp',
+  subtitle = 'signUp.subtitle',
+  alreadyHaveAccount = 'signUp.alreadyHaveAccount',
+  passwordConfirmation = 'signUp.passwordConfirmation',
+  signIn = 'signUp.signIn',
+}
+
 export enum DefaultI18n {
   email = 'default.email',
   password = 'default.password',
+  name = 'default.name',
+  back = 'default.back',
 }
 
 export enum TestsI18n {
@@ -31,4 +42,9 @@ export enum ErrorsI18n {
   passwordMismatchError = 'errors.passwordMismatchError',
 }
 
-export type I18nKeys = LoginI18n | ErrorsI18n | DefaultI18n | TestsI18n;
+export type I18nKeys =
+  | LoginI18n
+  | SignUpI18n
+  | ErrorsI18n
+  | DefaultI18n
+  | TestsI18n;
