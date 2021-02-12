@@ -22,6 +22,7 @@ export default {
     invalidOtherFieldError: 'Campo inválido',
     minLengthError: '$ deve ter pelo menos $ caracteres',
     emailInUseError: 'Endereço de Email já está em uso',
+    passwordMismatchError: 'Senhas não coincidem',
   },
   tests: {
     helloWorld: 'Olá Mundo $ $',

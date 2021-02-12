@@ -21,6 +21,7 @@ export default {
     invalidOtherFieldError: 'Invalid Field',
     minLengthError: '$ must be at least $ characters',
     emailInUseError: 'Email address in use',
+    passwordMismatchError: 'Passwords do not match',
   },
   tests: {
     helloWorld: 'Hello World $ $',
