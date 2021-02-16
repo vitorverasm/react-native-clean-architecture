@@ -47,3 +47,29 @@ export const fillInputByTestID = (
     fireEvent(input, 'onSubmitEditing');
   }
 };
+
+export const assertStatusForInput = (
+  sut: RenderAPI,
+  inputTestID: string,
+  validationError?: any,
+): void => {
+  const assertStatus = validationError ? 'danger' : 'basic';
+  expect(sut.getByTestId(inputTestID)).toHaveProp('status', assertStatus);
+  if (!validationError) {
+    expect(
+      getInputCaptionByContainer(sut.getByTestId(`${inputTestID}_container`)),
+    ).toBeNull();
+  } else {
+    expect(
+      getInputCaptionByContainer(sut.getByTestId(`${inputTestID}_container`)),
+    ).toBe(validationError[inputTestID.split('_')[0]]);
+  }
+};
+
+export const assertValueForInput = (
+  sut: RenderAPI,
+  inputTestID: string,
+  expectedValue: string,
+): void => {
+  expect(sut.getByTestId(inputTestID)).toHaveProp('value', expectedValue);
+};
